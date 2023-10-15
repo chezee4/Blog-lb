@@ -16,7 +16,7 @@ export default function Navigate() {
   return (
     <ul
       className={cn(
-        " bg-white top-[60px] overflow-hidden h-0 z-[3]  left-0 w-[100dvw] lg:h-auto lg:w-auto absolute lg:static flex flex-col lg:flex-row lg:items-center pl-[30px] lg:ml-0 gap-7 text-custom-color lg:opacity-70 transition-all duration-500 ",
+        " bg-white top-[60px] overflow-hidden h-0 z-[3]  left-0 w-[100dvw] lg:h-auto lg:w-auto absolute lg:static flex flex-col lg:flex-row lg:items-center pl-[30px] lg:ml-0 gap-7 text-custom-color  transition-all duration-500 ",
         { " h-[100dvh] transition-all duration-700 pt-16 ": isOpen }
       )}
     >

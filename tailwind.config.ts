@@ -11,6 +11,7 @@ const config: Config = {
       colors:{
         "custom-color" : "#424242",
         "custom-red": "#D05270",
+        "custom-red-seofriendly": "#AD1338"
       },
       screens: {
         'mm': '480px',

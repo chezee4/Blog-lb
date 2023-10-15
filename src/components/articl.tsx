@@ -20,11 +20,15 @@ export default function Articl({
       <span className=" inline-block mb-[14px] mt-2 text-[10px] leading-normal md:text-sm text-custom-color font-semibold">
         {dayOfPublication}
       </span>
-      <h4 className=" mb-3 text-xl md:text-2xl font-semibold text-custom-red">{title}</h4>
-      <p className=" mb-[30px] text-sm  md:text-base text-custom-color">{description}</p>
+      <h4 className=" mb-3 text-xl md:text-2xl font-semibold text-custom-red">
+        {title}
+      </h4>
+      <p className=" mb-[30px] text-sm  md:text-base text-custom-color">
+        {description}
+      </p>
       <Link
-        href={`/blog/${index}`}
-        className=" text-sm  md:text-lg text-custom-red font-medium border-b border-custom-red"
+        href={`/blog/${ id + index }`}
+        className=" text-sm  md:text-lg text-custom-red-seofriendly font-medium border-b border-custom-red-seofriendly"
       >
         READ MORE
       </Link>
