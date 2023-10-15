@@ -5,17 +5,17 @@ export default function ButtonList() {
     <ButtonLink
       href=""
       text="TWITTER"
-      className=" bg-[#47ACDF] hover:bg-[#1275B1]"
+      className=" bg-[#47ACDF] hover:bg-[#3686af] transition-all duration-200 "
     />
     <ButtonLink
       href=""
       text="LINKEDIN"
-      className=" bg-[#1275B1] hover:bg-[#47ACDF]"
+      className=" bg-[#1275B1]  hover:bg-[#3686af]  transition-all duration-200"
     />
     <ButtonLink
       href=""
       text="MEDIUM"
-      className=" bg-black hover:bg-slate-900"
+      className=" bg-black hover:bg-slate-800  transition-all duration-200"
     />
   </div>
   )
