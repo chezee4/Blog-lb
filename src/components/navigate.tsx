@@ -8,8 +8,8 @@ export default function Navigate() {
   const isOpen = useBurger((state) => state.isOpen);
   const setIsOpen = useBurger((state) => state.setIsOpen);
   const toggleBurger = () => {
-    setIsOpen();
-    !isOpen
+    isOpen && setIsOpen();
+    window.innerWidth <= 1024 && !isOpen
       ? (document.body.style.overflow = "hidden")
       : (document.body.style.overflow = "visible");
   };
