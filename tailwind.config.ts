@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors:{
+        "custom-color" : "#424242",
+        "custom-red": "#D05270",
+      },
+      screens: {
+        'mm': '480px',
+        'mx': "940px",
+        'mmm': "340px" 
+      },
       
     },
   },

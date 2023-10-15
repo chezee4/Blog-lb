@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Видалити видимість полоси прокрутки */
+ul::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  /* Видалити видимість стрілок вгору і вниз */
+  ul::-webkit-scrollbar-button {
+    display: none;
+  }
+  
+  /* Видалити видимість треку */
+  ul::-webkit-scrollbar-track {
+    display: none;
+  }
+  
+  /* Видалити видимість скролувального нопа (плаваючої кнопки) */
+  ul::-webkit-scrollbar-thumb {
+    display: none;
+  }
+
+  ul {
+    scrollbar-width: none;
+  }
+  
+  /* Опціонально, приховати полосу прокрутки тільки по горизонталі */
+  ul {
+    scrollbar-width: none;
+    scrollbar-color: transparent transparent;
+  }

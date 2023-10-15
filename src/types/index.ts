@@ -6,3 +6,10 @@ export type Articl = {
     description:string,
     img: any
 }
+
+
+export type Navigate = {
+    id:string,
+    title: string,
+    link: string,
+}
